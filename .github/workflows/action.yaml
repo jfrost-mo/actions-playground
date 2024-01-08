@@ -11,6 +11,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Placeholder Step
-        run: true
+      - name: Pre-commit
+        run: pre-commit --version
 
